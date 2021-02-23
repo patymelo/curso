@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
-    <title>Spotmusiccc</title>
+    <title>Spotmusic</title>
 
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, user-scalable=no"/>
@@ -13,11 +13,11 @@
 
 <div class="container">
     <div class="jumbotron">
-        <h1>Spotmusicccc</h1>
+        <h1>Spotmusic</h1>
     </div>
 
     <h4>
-        Nova playlistlll
+        Nova playlistl
     </h4>
 
     <form th:action="@{/playlists/salvar}" th:method="${playlist.id} == 0 ? post : put" th:object="${playlist}">
